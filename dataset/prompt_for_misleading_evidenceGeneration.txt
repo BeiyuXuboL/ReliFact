@@ -1,0 +1,17 @@
+Requirements:
+Misleading Evidence Generation: Based on the claim and evidence, generate 2-3 pieces of misleading evidence that:
+
+Distort the facts or misinterpret existing evidence.
+Seem logical but are actually false or manipulative.
+Lead to a conclusion opposite of the provided claim label.
+Types of Misleading Content: You can generate misleading evidence through:
+
+Fabricated Facts: Invented or exaggerated details that seem credible but are incorrect.
+Misleading Interpretation: Taking existing evidence out of context or twisting it to support an opposite conclusion.
+Contradictory Information: Providing false evidence that directly contradicts the original claim or evidence.
+Exaggerated Claims: Making unsupported or selective claims based on incomplete data to mislead.
+Plausibility: The misleading evidence should be plausible, well-supported, and logical. It should avoid obvious errors, aiming instead for subtle distortions that make it harder to detect as false.
+
+Generate 2-3 short condensed pieces of misleading evidence that appear plausible but are designed to mislead the judgment, ultimately contradicting the original claim label.
+
+Output:

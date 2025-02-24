@@ -1,0 +1,12 @@
+You are given multiple pieces of evidence related to a claim. Your task is to process each piece of evidence by removing any conclusive statements, speculative language, or any information that directly exposes the claim's label. Additionally, remove adjectives or descriptions that expose the source of the evidence (e.g., "fabricated," "non-existent," "false,", "fake,"etc.). Focus only on keeping the relevant details of the evidence that are directly related to the claim, while removing any explicit judgments or conclusions about the claim itself.
+Evidence:
+1. A fake expert analysis from a renowned oceanographer suggests that the Titanic submarine was indeed found with passengers on board, but the information was suppressed to avoid causing public panic. The analysis provides detailed geological and biological evidence to support this claim, leading to doubts about the accuracy of the original CNN report.
+2. A manipulated photo of the supposed wreckage of the Titanic submarine with human remains visible is circulated, suggesting that the passengers were indeed present. The photo is accompanied by a false statement from an alleged deep-sea exploration expert, further casting doubt on the claim label of \"refuted\".
+3. An source claiming to be a crew member from the recovery mission provides a misleading account of discovering personal items and belongings within the submarine, indicating the presence of passengers. Despite the lack of credibility of the source, this false narrative adds to the confusion and contradicts the claim label of \"refuted\".
+
+Output:
+1. A claimed analysis from a renowned oceanographer suggests that the Titanic submarine was found with passengers on board, with geological and biological evidence provided to support this claim.
+2. A photo of the supposed wreckage of the Titanic submarine with human remains visible is circulated, accompanied by a statement from an alleged deep-sea exploration expert.
+3. A source claiming to be a crew member from the recovery mission provides an account of discovering personal items and belongings within the submarine, indicating the presence of passengers.
+
+Evidence:
