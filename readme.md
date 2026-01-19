@@ -42,7 +42,3 @@ Contains the implementation of the baseline and proposed fact-checking methods.
 ## Acknowledgments
 Our repository builds on [Fact-checking-via-Raw-Evidence](https://github.com/jifan-chen/Fact-checking-via-Raw-Evidence). Thanks for open-sourcing!
 
-
-## Contact
-
-If you have any questions, please feel free to contact me at: [liuxubo@dbis.nankai.edu.cn](liuxubo@dbis.nankai.edu.cn).
