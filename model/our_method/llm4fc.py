@@ -74,8 +74,8 @@ def main():
             prompt += "| Reliability score: %.4f \n" % evidence_reliability[i]
 
         messages = [{"role": "user", "content": prompt},]
-        # response = gpt_chat_completion(messages=messages, model='gpt-3.5-turbo-1106', temperature=1.0)
-        response = gpt_chat_completion(messages=messages, model='gpt-4o', temperature=1.0)
+        # response = gpt_chat_completion(messages=messages, model='gpt-3.5-turbo-1106', temperature=0.0)
+        response = gpt_chat_completion(messages=messages, model='gpt-4o', temperature=0.0)
         # print(response)
         try:
             res = {
