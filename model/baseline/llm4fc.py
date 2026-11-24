@@ -70,7 +70,7 @@ def main():
         prompt = 'Can you fact-check a claim for me? Classify the given claim into three labels: "supported", "refuted" or "not enough evidence". Let’s think step by step. \nGiven claim: %s \nRetrieval evidence: %s' % (claim, gold_evidence)
 
         messages = [{"role": "user", "content": prompt},]
-        # response = gpt_chat_completion(messages=messages, model='gpt-3.5-turbo-1106', temperature=1.0)
+        # response = gpt_chat_completion(messages=messages, model='gpt-3.5-turbo-1106', temperature=0.0)
         response = gpt_chat_completion(messages=messages, model='gpt-4o', temperature=0.0)
         # print(response)
         res = {
